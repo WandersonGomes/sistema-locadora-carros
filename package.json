@@ -1,0 +1,36 @@
+{
+  "name": "sistema-locadora-carros",
+  "version": "1.0.0",
+  "description": "Sistema Online de Aluguel de Carros",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WandersonGomes/sistema-locadora-carros.git"
+  },
+  "keywords": [
+    "sistema",
+    "locadora",
+    "carros",
+    "online"
+  ],
+  "author": "Wanderson Gomes da Costa, Isaac da Silva Sa, Adriano Pereira da Silva Junior",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WandersonGomes/sistema-locadora-carros/issues"
+  },
+  "homepage": "https://github.com/WandersonGomes/sistema-locadora-carros#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bootstrap": "^5.3.2",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.0.1",
+    "sequelize": "^6.33.0",
+    "sequelize-cli": "^6.6.1",
+    "sqlite3": "^5.1.6"
+  }
+}
