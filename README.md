@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://github.com/WandersonGomes/sistema-locadora-carros/blob/main/public/img/carIcon.png" alt="Carro Azul">
-  LocaCar
 </div>
+<center><font size="6">LocaCar</font></center>
 
 # sistema-locadora-carros: LocaCar
 Sistema de locadora de carros online - Topicos Especiais em Web - 2023.2
