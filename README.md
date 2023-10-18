@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://github.com/WandersonGomes/sistema-locadora-carros/blob/main/public/img/carIcon.png" alt="Carro Azul">
 </div>
-<p align="center" style="font-size:10px;">
+<p align="center" style="font-size:25px;">
     LocaCar
 </p>
 
