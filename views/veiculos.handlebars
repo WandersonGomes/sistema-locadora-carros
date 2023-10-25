@@ -1,4 +1,106 @@
 <!-- Menu de opções -->
 {{> menu}}
 
-veiculo
+<div class="container">
+    <h1 class="text-center">Cadastro de Veículos</h1>
+    <form>
+        <div class="form-row">
+            <div class="form-group col-md-3">
+                <label for="placa">Placa do Veículo</label>
+                <input type="text" class="form-control" id="placa" placeholder>
+            </div>
+            <div class="form-group col-md-9">
+                <label for="modelo">Marca/Modelo/Versão</label>
+                <input type="text" class="form-control" id="modelo" placeholder>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-3">
+                <label for="ano">Ano</label>
+                <input type="text" class="form-control" id="ano" placeholder>
+            </div>
+            <div class="form-group col-md-3">
+                <label for="ano-modelo">Ano Modelo</label>
+                <input type="text" class="form-control" id="ano-modelo"
+                    placeholder>
+            </div>
+            <div class="form-group col-md-3">
+                <label for="exercicio">Execício Licenciamento</label>
+                <input type="text" class="form-control" id="exercicio"
+                    placeholder>
+            </div>
+            <div class="form-group col-md-3">
+                <label for="cor">Cor</label>
+                <input type="text" class="form-control" id="cor" placeholder>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-3">
+                <label for="renavan">Renavan</label>
+                <input type="text" class="form-control" id="renavan" placeholder>
+            </div>
+            <div class="form-group col-md-3">
+                <label for="chassi">Chassi</label>
+                <input type="text" class="form-control" id="chassi" placeholder>
+            </div>
+            <div class="form-group col-md-3">
+                <label for="motor">Motor</label>
+                <input type="text" class="form-control" id="motor" placeholder>
+            </div>
+            <div class="form-group col-md-3">
+                <label for="crv">Número do CRV</label>
+                <input type="text" class="form-control" id="crv" placeholder>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-3">
+                <label for="cla">Código de segurança do CLA</label>
+                <input type="text" class="form-control" id="cla" placeholder>
+            </div>
+            <div class="form-group col-md-3">
+                <label for="combustivel">Combustível</label>
+                <input type="text" class="form-control" id="combustivel"
+                    placeholder="Gasolina, etanol, etc.">
+            </div>
+            <div class="form-group col-md-3">
+                <label for="motor">Motor</label>
+                <input type="text" class="form-control" id="motor" placeholder>
+            </div>
+            <div class="form-group col-md-3">
+                <label for="crv">Número do CRV</label>
+                <input type="text" class="form-control" id="crv" placeholder>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-3">
+                <label for="cpf-proprietario">CPF/CNPJ Proprietário</label>
+                <input type="text" class="form-control" id="cpf-proprietario"
+                    placeholder>
+            </div>
+            <div class="form-group col-md-9">
+                <label for="nome-proprietario">Nome do Proprietário</label>
+                <input type="text" class="form-control" id="nome-proprietario"
+                    placeholder>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-3">
+                <label for="categoria">Categoria</label>
+                <input type="text" class="form-control" id="categoria"
+                    placeholder="Particular, etc.">
+            </div>
+            <div class="form-group col-md-3">
+                <label for="local">Local</label>
+                <input type="text" class="form-control" id="local"
+                    placeholder="Cidade">
+            </div>
+        </div>
+        <button type="reset" class="btn btn-primary">Limpar</button>
+        <button type="submit" class="btn btn-primary">Salvar</button>
+    </form>
+</div>
