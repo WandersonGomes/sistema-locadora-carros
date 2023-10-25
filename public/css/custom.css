@@ -9,3 +9,8 @@ body{
     padding: 10px;
 }
 
+.hover_menu:hover{
+    color: rgb(0, 0, 0) !important;
+    background-color: #c9c9c9;
+}
+
