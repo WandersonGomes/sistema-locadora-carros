@@ -14,3 +14,18 @@ body{
     background-color: #c9c9c9;
 }
 
+/* CSS para os cards da tela home*/
+.card_disponivel{
+    background: linear-gradient(to bottom, #1e3c72, #2a5298);
+}
+
+.card{
+     border-radius: 30px;
+}
+
+@media screen and (max-width: 995px) and (min-width: 760px) {
+    .tex{
+      font-size: 60px !important;
+    }
+  }
+        
